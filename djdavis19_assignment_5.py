@@ -23,3 +23,19 @@ print("Steps:", step_count)
 # Critical Thinking:
 # A while loop is used here because we don't know how many iterations are needed.
 # The loop continues until n becomes 1, which could take an unpredictable number of steps.
+
+# Challenge 2: Prime Number Checker
+
+n = int(input("\nEnter a number greater than 1: "))
+print(f"Testing divisors from 2 to {n-1}...")
+
+is_prime = True  # Assume prime unless we find divisor
+
+for divisor in range(2, n):  # For loop because range is known
+    if n % divisor == 0:
+        print(f"{n} is not prime (divisible by {divisor})")
+        is_prime = False
+        break
+
+if is_prime:
+    print(f"{n} is prime!")

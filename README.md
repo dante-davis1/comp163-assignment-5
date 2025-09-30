@@ -22,7 +22,6 @@ This project demonstrates mastery of **while loops, for loops, and nested loops*
 - Challenge 1 Commit: `"Challenge 1: Collatz sequence - while loop for unknown iterations"`
 - Challenge 2 Commit: `"Challenge 2: Prime checker - for loop for known range"`
 - Challenge 3 Commit: `"Challenge 3: Multiplication grid - nested loops for 2D data"`
-- Documentation Commit: `"Add loop design documentation"`
 
 ## AI Usage
 AI assistance was used for **debugging, code review, and formatting suggestions**. 

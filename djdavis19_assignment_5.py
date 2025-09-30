@@ -39,3 +39,22 @@ for divisor in range(2, n):  # For loop because range is known
 
 if is_prime:
     print(f"{n} is prime!")
+
+# Challenge 3: Multiplication Table Grid
+# -------------------------------
+
+print("\nMultiplication Table:")
+
+# Header row
+print("    ", end="")
+for col in range(1, 11):
+    print(f"{col:4}", end="")
+print()
+
+# Rows
+for row in range(1, 11):  # Outer loop for rows
+    print(f"{row:2} ", end="")  # Row label
+    for col in range(1, 11):   # Inner loop for columns
+        product = row * col
+        print(f"{product:4}", end="")  # Format for alignment
+    print()  # New line after each row
